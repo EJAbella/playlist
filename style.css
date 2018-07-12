@@ -1,0 +1,148 @@
+body {
+  background-color: #EEEEEE;
+  margin: 0;
+  padding: 0;
+  font-family: avenir;
+}
+
+header {
+  height: 5vh;
+  background-color: #9B9B8D;
+  border-bottom: 2px solid #272724
+}
+
+.container {
+  height: 90vh;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.track-bin {
+  margin: auto;
+  width: 50%;
+}
+
+h1 {
+  color: #501C6C;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.button {
+  color: lightgray;
+  background-color: #353528;
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-weight: 100;
+}
+
+.album-list {
+  padding-top: 7px;
+}
+
+.album-list::after {
+  content: '';
+  background: url('resources/Track.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 5;
+}
+
+.splash-album {
+  display: block;
+  height: 28vh;
+  width: 28vh;
+  margin: 5px auto;
+  z-index: 10;
+}
+
+.playlistHeader {
+  color: #ECECEA;
+  height: 15vh;
+  background-color: #9B9B8D;
+  padding-top: 10vh;
+  padding-left: 40px;
+  border: none;
+}
+
+.playlist-container {
+  height: 80vh;
+  background-color: white;
+}
+
+.album-scroller {
+  height: 20vh;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.album_container {
+  display: inline-block;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.album {
+  height: 90px;
+  width: 90px;
+}
+
+.addAlbums {
+  border: 3px solid #353528;
+  margin: 30px 100px 20px 100px;
+  padding-top: 20px;
+  height: 30vh;
+  background-color: #EEEEEE;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.buttons {
+  margin-left: 100px;
+  font-size: 24px;
+}
+
+.submit-bin {
+  margin-left: 20px;
+}
+
+#postResponse {
+  margin-top: 30px;
+  padding: 10px;
+  opacity: 0;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  16.67% {opacity: 1}
+  83.33% {opacity: 1}
+  100% {opacity: 0}
+}
+
+footer {
+  font-size: 16px;
+  color: lightgray;
+  height: 5vh;
+  background-color: #68685A;
+  padding: 5px 30px;
+  font-weight: 100;
+}
