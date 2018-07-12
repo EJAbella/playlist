@@ -18,21 +18,21 @@ window.addEventListener('load', () => {
 })
 
 window.addEventListener('load', () => {
-  axios.get('https://lit-fortress-6467.herokuapp.com/object')
+  axios.get('http://localhost:3000/posts')
     .then(response => {
-      const data = response.data.results
+      const data = response.data
       console.log(response)
       for(let i=0; i<data.length; i++) {
-        albumScroller.innerHTML += `<div class='album_container'><img id='${i}' class='album' src=images/${data[i].cover_art}></div>`
+        albumScroller.innerHTML += `<div class='album_container'><img id='${i}' class='album' src=${data[i].image}></div>`
       }
     })
 })
 
 albumScroller.addEventListener('click', (e) => {
-  axios.get('https://lit-fortress-6467.herokuapp.com/object')
+  axios.get('http://localhost:3000/posts')
     .then(response => {
-      const data = response.data.results
-      addAlbums.innerHTML += `<p>${data[(e.target).id].artist}: ${data[(e.target).id].title}</p><hr>`
+      const data = response.data
+      addAlbums.innerHTML += `<p>${data[(e.target).id].author}: ${data[(e.target).id].title}</p><hr>`
     })
 })
 
