@@ -1,0 +1,17 @@
+{
+  "posts": [
+    { "id": 1, "title": "Hybrid Theory", "author": "Linkin Park", "songs": ["Papercut", "One Step Closer", "With You", "Points of Authority", "Crawling", "Runaway", "By Myself", "In the End", "A Place for My Head", "Forgotten", "Cure for the Itch", "Pushing Me Away"], "image": "https://img.cdandlp.com/2018/03/imgL/119087823.jpg"},
+    { "id": 2, "title": "Hard Love", "author": "Needtobreathe", "songs": ["Mountain, Pt. 1", "Hard Love", "Money & Fame", "No Excuses", "When I Sing", "Happiness", "Great Night", "Be Here Long", "Don't Bring That Trouble", "Let's Stay Home Tonight", "Testify", "Clear"], "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Hardlovealbum.jpg/220px-Hardlovealbum.jpg"},
+    { "id": 3, "title": "Rivers in the Wasteland", "author": "Needtobreathe", "songs": ["Wasteland", "State I'm In", "Feet, Don't Fail Me Now", "Oh, Carolina", "Difference Maker", "Rise Again", "The Heart", "Where the Money Is", "Multiplied", "Brother", "More Heart, Less Attack"], "image": "https://upload.wikimedia.org/wikipedia/en/5/5f/RiversintheWasteland.jpg"},
+    { "id": 4, "title": "Gemini", "author": "Macklemore", "songs": ["Ain't Gonna Die Tonight", "Glorious", "Marmalade", "Willy Wonka", "Intentions", "Good Old Days", "Levitate", "Firebreather", "How to Play the Flute", "Ten Million", "Over It", "Zara", "Corner Store", "Miracle", "Church", "Excavate"], "image": "https://upload.wikimedia.org/wikipedia/en/7/7a/Macklemore_Gemini.png"},
+    { "id": 5, "title": "Hello Hurricane", "author": "Switchfoot", "songs": ["Needle and Haystack Life", "Mess of Me", "Your Love is a Song", "The Sound", "Enough to Let Me Go", "Free", "Hello Hurricane", "Always", "Bullet Soul", "Yet", "Sing It Out", "Red Eyes"], "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Hellohurricane.jpg"},
+    { "id": 6, "title": "Away from the Sun", "author": "3 Doors Down", "songs": ["When I'm Gone", "Away from the Sun", "The Road I'm On", "Ticket to Heaven", "Running Out of Days", "Here Without You", "I Feel You", "Dangerous Game", "Changes", "Going Down in Flames", "Sarah Yellin", "This Time"], "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Away_from_the_sun.jpg"},
+    { "id": 7, "title": "+", "author": "Ed Sheeran", "songs": ["The A Team", "Drunk", "U.N.I.", "Grade 8", "Wake Me Up", "Small Bump", "This", "This City", "Lego House", "You Need Me, I Don't Need You", "Kiss Me", "Give Me Love"], "image": "https://upload.wikimedia.org/wikipedia/en/3/3f/Ed_Sheeran_%2B_cover.png"},
+    { "id": 8, "title": "Native", "author": "One Republic", "songs": ["Counting Stars", "Love Runs Out", "If I Lose Myself", "Feel Again", "What You Wanted", "I Lived", "Light It Up", "Can't Stop", "Au Revoir", "Burning Bridges", "Something I Need", "Preacher", "Don't Look Down"], "image": "https://upload.wikimedia.org/wikipedia/en/9/96/OneRepublic_-_Native.png"},
+    { "id": 8, "title": "Chaos and the Calm", "author": "James Bay", "songs": ["Craving", "Hold Back the River", "Let It Go", "If You Ever Want to Be in Love", "Best Fake Smile", "When We Were on Fire", "Move Together", "Scars", "Collide", "Get Out While You Can", "Need the Sun to Break", "Incomplete"], "image": "https://upload.wikimedia.org/wikipedia/en/7/7c/Chaos_and_the_Calm.jpg"}
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}

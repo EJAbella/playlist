@@ -14,9 +14,19 @@ window.addEventListener('load', () => {
   axios.get('http://localhost:3000/posts')
     .then(response => {
       const data = response.data
-      splashOne.src = `${data[3].image}`
-      splashTwo.src = `${data[4].image}`
-      splashThree.src = `${data[7].image}`
+      let arr = []
+      for(let i=0; i<data.length; i++) {
+        arr.push(i)
+      }
+      let randOne = arr[Math.floor(Math.random()*(arr.length))]
+      arr.splice(arr.indexOf(randOne), 1)
+      let randTwo = arr[Math.floor(Math.random()*(arr.length))]
+      arr.splice(arr.indexOf(randTwo), 1)
+      let randThree = arr[Math.floor(Math.random()*(arr.length))]
+      arr.splice(arr.indexOf(randThree), 1)
+      splashOne.src = `${data[randOne].image}`
+      splashTwo.src = `${data[randTwo].image}`
+      splashThree.src = `${data[randThree].image}`
     })
 })
 
