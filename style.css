@@ -76,11 +76,13 @@ h1 {
   padding-top: 10vh;
   padding-left: 40px;
   border: none;
+  overflow: auto;
 }
 
 .playlist-container {
   height: 80vh;
   background-color: white;
+  overflow: auto;
 }
 
 .album-scroller {

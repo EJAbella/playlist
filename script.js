@@ -14,9 +14,9 @@ window.addEventListener('load', () => {
   axios.get('http://localhost:3000/posts')
     .then(response => {
       const data = response.data
-      splashOne.src = `${data[0].image}`
-      splashTwo.src = `${data[2].image}`
-      splashThree.src = `${data[3].image}`
+      splashOne.src = `${data[3].image}`
+      splashTwo.src = `${data[4].image}`
+      splashThree.src = `${data[7].image}`
     })
 })
 
