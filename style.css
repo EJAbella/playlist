@@ -70,7 +70,7 @@ h1 {
 }
 
 .playlistHeader {
-  color: #ECECEA;
+  color: whitesmoke;
   height: 15vh;
   background-color: #9B9B8D;
   padding-top: 10vh;
@@ -102,15 +102,50 @@ h1 {
   width: 90px;
 }
 
+.selectCont {
+  padding-left: 40px;
+}
+
+.albumChoice {
+  height: 130px;
+  width: 130px;
+}
+
 .addAlbums {
-  border: 3px solid #353528;
-  margin: 30px 100px 20px 100px;
-  padding-top: 20px;
+  border: 2px solid #353528;
+  margin: 30px 10px;
+  padding-top: 10px;
   height: 30vh;
   background-color: #EEEEEE;
-  overflow-x: hidden;
+  overflow-x: scroll;
   overflow-y: scroll;
   white-space: nowrap;
+}
+
+.currentAlbum {
+  text-align: center;
+  font-size: 16px;
+  margin: auto 10px;
+  padding-top: 10vh;
+  width: 50%;
+  height: 30vh;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.boxTitle {
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.arrowCont {
+  margin: auto 0px;
+  padding: 0px;
+  width: 50%;
+}
+
+.arrow {
+  width: 100%;
 }
 
 .buttons {
@@ -118,8 +153,18 @@ h1 {
   font-size: 24px;
 }
 
-.submit-bin {
-  margin-left: 20px;
+.clear-tracks {
+  margin-right: 20px;
+}
+
+.clear-tracks:hover {
+  color: rgb(246, 236, 102);
+  text-decoration: underline;
+}
+
+.submit-bin:hover {
+  color: #64C779;
+  text-decoration: underline;
 }
 
 #postResponse {
